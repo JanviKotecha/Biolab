@@ -26,7 +26,7 @@
               <div class="row">
                 <div class="col-md-5">
                   <div class="form-group row">
-                    <label class="col-sm-4 col-form-label" >ConfirmationNo.</label>
+                    <label class="col-sm-6 col-form-label" >Confirmation Number</label>
                     <div class="col-sm-12">
                       <input type="text" class="form-control" name="unum" id="unum" />
                     </div>
