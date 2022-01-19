@@ -138,7 +138,6 @@ DOMstrings.stepsForm.addEventListener('click', (e) => {
     //let f2=document.getElementById('f2');
     if (fnm == '') {
       alert('Please Enter Your First Name');
-      activePanelNum++;
     } else if (lnm == '') {
       alert('Please Enter Your Last Name');
     } else if (dob == '') {
@@ -182,8 +181,8 @@ DOMstrings.stepsForm.addEventListener('click', (e) => {
         alert('You must agree to the terms first.');
         return false;
       } else {
-        activePanelNum++;
         document.getElementById('hidden').style.display = 'none';
+        activePanelNum++;
       }
     }
   }
