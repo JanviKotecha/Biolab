@@ -9914,7 +9914,8 @@ Input Style
   Input Size
 ******************************************/
 .form-control {
-  min-height: 40px; }
+  min-height: 40px;
+  border-radius: 0.40em;}
 
 .form-control-sm {
   min-height: 36px; }
