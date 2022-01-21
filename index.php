@@ -143,7 +143,7 @@
                 <div class="row">
                   <div class="appointment-title" style="padding-left: 39px;margin-bottom: 16px;">
                     <h2>One Step Ahead Of COVID</h2>
-                    <h3>RT-PCR, RT-PCR, FLU </h3>
+                    <h3>(RT-PCR)</h3>
                   </div>
                 </div>
                 <form action="form.php" method="post" >
@@ -177,8 +177,8 @@
                 </p>
                 <p style="margin: 0 0 10px;">Biolink Lifescience have been established under the supervision of experienced scientific executives and technical leaders. We detect the virus by analyzing different COVID -19 tests. 
                 </p>
-                <p><i class="fas fa-angle-double-right" style="color:black;"></i> RT-PCR, RT-PCR plus FLU, Rapid Antigen,</p>
-                <p><i class="fas fa-angle-double-right" style="color:black;"></i> Antibody, Molecular ID</p>
+                <p><i class="fas fa-angle-double-right" style="color:gray;  "></i> RT-PCR, RT-PCR plus FLU, Rapid Antigen,</p>
+                <p><i class="fas fa-angle-double-right" style="color:gray;"></i> Antibody, Molecular ID</p>
               </div>
             </div>
           </div>
@@ -204,11 +204,11 @@
                     </center>
                   </span>
                 </div>
-                <div class="text-holder">
-                  <p>About 1 in 3 people with COVID-19 do not have symptoms but can still infect others. This tests help to detect covid -19 earlier, If people test positive and self-isolate, it helps stop the virus spreading.
+                <div class="text-holder"  style="height:90%">
+                  <p  style="height:80%">About 1 in 3 people with COVID-19 do not have symptoms but can still infect others. This tests help to detect covid -19 earlier, If people test positive and self-isolate, it helps stop the virus spreading.
                     <br><br>Required for travel, must be tested within 72 hours of final flight departing the U.S.A.
                   </p>
-                  <center>
+                  <center style="height:20%">
                     <h6>
                       <hr>
                       Results in 48 hrs
@@ -224,12 +224,12 @@
                     </center>
                   </span>
                 </div>
-                <div class="text-holder">
+                <div class="text-holder"  style="height:90%">
                   <p>About 1 in 3 people with COVID-19 do not have symptoms but can still infect others. This tests help to detect covid -19 earlier, If people test positive and self-isolate, it helps stop the virus spreading.
                     <br><br>Required for travel, must be tested within 72 hours of final flight departing the U.S.A.
                   </p>
-                  <center>
-                    <h6>
+                  <center  style="height:80%">
+                    <h6 style="height:20%">
                       <hr>
                       Results in 48 hrs
                     </h6>
@@ -244,10 +244,10 @@
                     </center>
                   </span>
                 </div>
-                <div class="text-holder">
-                  <p>With this quick test you can immediately determine whether you are infected with the coronavirus. The test is done with a nose swab.</p>
-                  <br><br><br><br><br>
-                  <center>
+                <div class="text-holder"  style="height:90%">
+                  <p  style="height:80%">With this quick test you can immediately determine whether you are infected with the coronavirus. The test is done with a nose swab.</p>
+                  <!-- <br><br><br><br><br> -->
+                  <center style="height:20%">
                     <h6>
                       <hr>
                       Results in 48 hrs
@@ -264,9 +264,9 @@
                     </center>
                   </span>
                 </div>
-                <div class="text-holder">
-                  <p>An antibody test is a blood test to check if you have previously been infected with a virus. The test detects your body’s response to the virus or vaccination. This test can also be used by individuals who may not have developed any symptoms of COVID-19, but are interested in whether they have previously been infected.</p>
-                  <center>
+                <div class="text-holder"  style="height:90%">
+                  <p  style="height:80%">An antibody test is a blood test to check if you have previously been infected with a virus. The test detects your body’s response to the virus or vaccination. This test can also be used by individuals who may not have developed any symptoms of COVID-19, but are interested in whether they have previously been infected.</p>
+                  <center style="height:20%">
                     <h6>
                       <hr>
                       Results in 48 hrs
@@ -283,10 +283,10 @@
                     </center>
                   </span>
                 </div>
-                <div class="text-holder">
-                  <p>Covid-19 + Flu test panel to help patients and healthcare providers to differentiate between the two illnesses which have similar symptoms.</p>
-                  <br><br><br><br>
-                  <center>
+                <div class="text-holder" style="height:90%">
+                  <p style="height:80%">Covid-19 + Flu test panel to help patients and healthcare providers to differentiate between the two illnesses which have similar symptoms.</p>
+                  <!-- <br><br><br><br> -->
+                  <center style="height:20%">
                     <h6>
                       <hr>
                       Results in 48 hrs

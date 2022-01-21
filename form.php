@@ -190,12 +190,12 @@
                     </div>
                     <div class="col-12 col-sm-6 mt-4 mt-sm-0">
                     <p>Race  </p>
-                      <select class="multisteps-form__select form-control" name="race" id="race">
+                      <select class="multisteps-form__select form-control" name="race" id="race" > 
                       
                         <option value="American Indian / Alaska Native">American Indian / Alaska Native</option>
                         <option value="Asian">Asian</option>
                         <option value="Black/African American">Black/African American</option>
-                        <option value="Native Hawaiian / Other Pacific Islander">Native Hawaiian / Other Pacific Islander</option>
+                        <option value="Native Hawaiian / Other Pacific Islander">Native Hawaiian / Other Pacific Islander &nbsp;</option>
                         <option value="White">White</option>
                         <option value="Unknown">Unknown</option>
                       </select>
@@ -259,7 +259,7 @@
                     <p>Bill To  </p>
                       <select class="multisteps-form__select form-control" name="billto">
                         <option value="Insurance">Insurance</option>
-                        <option value="Uninsurance">Uninsurance</option>
+                        <option value="Uninsurance">Uninsured</option>
                         <option value="Patient">Patient</option>
                         <option value="Provider or Business">Provider or Business</option>
                       </select>
@@ -302,15 +302,15 @@
                 <div class="multisteps-form__content">
                   <div class="form-row mt-4">
                     <div class="col-12 col-sm-6 mt-4 mt-sm-0">
-                    <p>Reson for submission  <sup style="color:#9194A0">*</sup> </p>
+                    <p>Reason for submission  <sup style="color:#9194A0">*</sup> </p>
                       <select class="multisteps-form__select form-control" name="rfs" id="rfs">
-                        <option valude="Reson for submission" >Reson for submission</option>
+                        <option valude="Reason for submission" >Reason for submission</option>
                         <option value="Diagnostic">Diagnostic</option>
                         <option value="Screening">Screening</option>
-                        <option value="Contracted with COVID positive person">Contracted with COVID positive person</option>
+                        <option value="Contracted with COVID positive person">Contracted with COVID positive person  &nbsp;</option>
                         <option value="Sickness">Sickness</option>
                         <option value="Travel">Travel</option>
-                        <option value="Possible Exposure to COVID positive person">Possible Exposure to COVID positive person</option>
+                        <option class="pr-2" value="Possible Exposure to COVID positive person">Possible Exposure to COVID positive person  &nbsp;</option>
                       </select>
                     </div>
                     <div class="col-12 col-sm-6">
@@ -318,7 +318,7 @@
                       <select class="multisteps-form__select form-control" name="stype">
                         <option valude="" >Specimen Type </option>
                         <option value="Sterile Container">Sterile Container</option>
-                        <option value="Blood Tube (Plasma, Serum or Whole Blood)">Blood Tube (Plasma, Serum or Whole Blood)</option>
+                        <option value="Blood Tube (Plasma, Serum or Whole Blood)">Blood Tube (Plasma, Serum or Whole Blood)  &nbsp;</option>
                         <option value="Other (Specify)">Other (Specify)</option>
                         
                       </select>
@@ -338,10 +338,10 @@
                       <p>Test Request  <sup style="color:#9194A0">*</sup> </p>
                       <select class="multisteps-form__select form-control" name="sreq" id="sreq">
                         <option value="Test Request" >Test Request </option>
-                        <option value="SARS CoV-2 Molecular Test (RT-PCR)">SARS CoV-2 Molecular Test (RT-PCR)</option>
+                        <option value="SARS CoV-2 Molecular Test (RT-PCR)">SARS CoV-2 Molecular Test (RT-PCR)  &nbsp;</option>
                         <option value="SARS CoV-2 Rapid Antigen">SARS CoV-2 Rapid Antigen</option>
-                        <option value="SARS CoV-2 RT-PCR plus FLU (*Physican Referral Required)">SARS CoV-2 RT-PCR plus FLU (*Physican Referral Required)</option>
-                        <option value="COVID-19 IgG / IgM Rapid Test">COVID-19 IgG / IgM Rapid Test</option>
+                        <option value="SARS CoV-2 RT-PCR plus FLU (*Physican Referral Required)">SARS CoV-2 RT-PCR plus FLU (*Physican Referral Required) &nbsp;</option>
+                        <option value="COVID-19 IgG / IgM Rapid Test">COVID-19 IgG / IgM Rapid Test  &nbsp;</option>
                         
                       </select>
                     </div>
@@ -383,13 +383,13 @@
                   </div>
                   <div class="button-row d-flex mt-4">
                     <button class="btn btn-primary js-btn-prev" type="button" title="Prev" style="background: white;color: #0392ce;">Previous Step</button>
-                    <button class="btn btn-primary ml-auto js-btn-next" type="button" title="Next" style="background-color:green" >Submit</button>
+                    <button class="btn btn-primary ml-auto js-btn-next" type="button" title="Next" style="background-color:green; border:none;" >Submit</button>
                   </div>
                   
                 </div>
               </div>
               <div class="multisteps-form__panel shadow p-4 rounded bg-white" data-animation="scaleIn" style="height: 400px;">
-                <center><img src="images/icon/a.jpg" alt="" style="height: 97px">
+                <center><img src="images/icon/ico.png" alt="" style="height: 97px; padding:5px">
                 <div class="multisteps-form__content">
                   <div class="form-row mt-4">
                     <div class="col-12 col-sm-12 mt-4 mt-sm-0">
@@ -398,7 +398,7 @@
                     </div>
                   </div>
                   <div class="button-row d-flex mt-4"> 
-                    <button class="btn btn-success ml-auto"  type="submit" title="Send" name="submit" style="background-color:#0392ce;margin: 0px 296px;margin-top: 74px;border:#0392c2">Go To Home</button></center>
+                    <button class="btn  ml-auto"  type="submit" title="Send" name="submit" style="background-color:#0392ce; color:white; margin: 0px 296px; margin-top: 74px; border:none;">Go To Home</button></center>
                   </div>
                   
                 </div>
@@ -415,7 +415,7 @@
 <!-- partial -->
 <footer style="">
   <div class="copyright">
-    <center><p>For support please call Biolink at 919-678-9478 or email at info@biolinkonline.com</p></center>
+    <center><p>For support please call Biolink at <b style="color:#0392ce">919-678-9478</b> or email at <b style="color:#0392ce">info@biolinkonline.com</b></p></center>
   </div>
 </footer>
 <script  src="script.js"></script>

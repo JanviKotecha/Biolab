@@ -26,7 +26,7 @@
               <div class="row">
                 <div class="col-md-5">
                   <div class="form-group row">
-                    <label class="col-sm-6 col-form-label" >Confirmation Number</label>
+                    <label class="col-sm-6 col-md-12 col-form-label" style="font-weight:400; ">CONFIRMATION NUMBER</label>
                     <div class="col-sm-12">
                       <input type="text" class="form-control" name="unum" id="unum" />
                     </div>
@@ -34,7 +34,7 @@
                 </div>
                 <div class="col-md-5 " >
                   <div class="form-group row">
-                    <label class="col-sm-4 col-form-label" >Last Name</label>
+                    <label class="col-sm-4  col-md-12 col-form-label" style="font-weight:400;" >LAST NAME</label>
                     <div class="col-sm-12">
                       <input type="text" name="fnm" id="fnm" class="form-control" placeholder="" />  
                     </div>
@@ -43,7 +43,7 @@
                 <div class="col-md-2 ">
                   <div class="form-group row">
                     <div class="col-sm-6">
-                    <button type="submit" name="filter" id="filter"  class="btn btn-success" style="background: #80808069;border: #80808069;padding: 8px 29px;margin-top:38px"><i class="fa fa-search"></i> Search</button>
+                    <button type="submit" name="filter" id="filter"  class="btn btn-success" style="background: #80808069; border: #80808069; color:black;  padding: 12px 29px; margin-top:35px"><i class="fa fa-search" style="padding-right:4px;"></i> Search</button>
                     </div>
                   </div>
                 </div>
@@ -60,18 +60,18 @@
                     
                   	<div class="text-right"><br/>
                   	</div>
-                  	<table class="table table-striped table-bordered" id="datatable" width="100%" cellspacing="0">
+                  	<table class="table  table-bordered" id="datatable" width="100%" cellspacing="0">
                   		<thead>
-                      <tr>
-                        <th>CONFIRMATION NUMBER</th>
-                        <th>FIRST NAME</th>
-                        <th>LAST NAME</th>
-                        <th>DATE OF BIRTH</th>
-                        <th>VIEW</th>
-                        <th>RESULT</th>
+                      <tr  class="table-secondary">
+                        <th style="font-weight:400;">CONFIRMATION NUMBER</th>
+                        <th style="font-weight:400;">FIRST NAME</th>
+                        <th style="font-weight:400;">LAST NAME</th>
+                        <th style="font-weight:400;">DATE OF BIRTH</th>
+                        <th style="font-weight:400; text-align: center;">VIEW</th>
+                        <th style="font-weight:400; text-align: center;">RESULT</th>
                       </tr>
                     </thead>
-                    <tbody id="oreder_table">
+                    <tbody id="oreder_table" >
                       
                     </tbody>
                    	</table>
